@@ -1,0 +1,8 @@
+curl \
+     -X POST \
+     -H "Content-Type: application/json" \
+     -d '{"name":"planete 1","universe_id":"55db32a0c75d9f1b4852b461"}' \
+     -i http://localhost:8200/api/galaxy
+echo  ""
+
+
